@@ -1,0 +1,112 @@
+/* basic global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+header {
+  max-width: 90vw;
+}
+/* custom global styles */
+
+.h-padding {
+  padding: 0px 30px;
+}
+
+/* colors */
+
+.light-gray {
+  color: #7b7777;
+}
+.dark-gray {
+  color: #414454;
+}
+
+.green {
+  color: #018b9a;
+}
+
+/* fonts */
+
+.bold {
+  font-weight: 600;
+}
+
+/* image sizes */
+
+.xs-img {
+  width: 15px;
+}
+
+.sm-img {
+  width: 20px;
+}
+
+.md-img {
+  width: 30px;
+}
+
+.lg-img {
+  width: 40px;
+}
+
+.xl-img {
+  width: 100px;
+}
+
+/* flexbox */
+
+.flex {
+  display: flex;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+/* divider */
+
+.v-divider {
+  border-left: solid;
+  height: 20px;
+  border-width: 1px;
+}
+
+.box {
+  width: 300px;
+  height: 150px;
+  background-color: #018b9a;
+  border: 5px solid black;
+  padding: 10px;
+}
+
+/* id */
+
+#red {
+  color: red;
+}
+
+.final-boss {
+  color: violet !important;
+}
+
+.border {
+  border: 1px solid black;
+}
