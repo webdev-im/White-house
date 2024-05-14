@@ -19,11 +19,33 @@ header {
 }
 /* custom global styles */
 
+/* positioning */
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
 .h-padding {
   padding: 0px 30px;
 }
 
 /* colors */
+
+.cream-c {
+  color: #eae8e1;
+}
+
+.cream-bg {
+  background-color: #eae8e1;
+}
+
+.white-c {
+  color: white;
+}
 
 .light-gray {
   color: #7b7777;
@@ -64,6 +86,10 @@ header {
   width: 100px;
 }
 
+.logo {
+  height: 52px;
+}
+
 /* flexbox */
 
 .flex {
@@ -74,12 +100,71 @@ header {
   align-items: center;
 }
 
+.align-top {
+  align-items: top;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .flex-wrap {
   flex-wrap: wrap;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+/* size */
+
+.w-100 {
+  min-width: 100%;
+}
+
+.w-50 {
+  max-width: 50%;
+}
+
+.w-75 {
+  max-width: 75%;
+}
+
+.px-15 {
+  padding: 0 15%;
+}
+
+.px-5 {
+  padding: 0 5%;
+}
+
+.px-3 {
+  padding: 0 3%;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+/* font sizes */
+
+.text-xl {
+  font-size: 50px;
 }
 /* divider */
 
@@ -87,6 +172,14 @@ header {
   border-left: solid;
   height: 20px;
   border-width: 1px;
+}
+
+.h-divider {
+  border-top: solid;
+  margin: 50px 0;
+  width: 100%;
+  border-width: 1px;
+  color: rgb(234, 234, 234);
 }
 
 .box {
@@ -109,4 +202,45 @@ header {
 
 .border {
   border: 1px solid black;
+}
+
+.red-div {
+  height: 50px;
+  width: 50px;
+  background-color: red;
+}
+
+.header-style {
+  border-radius: 0 0 25px 25px;
+  min-height: 75px;
+}
+
+.footer-style {
+  min-height: 462px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.button {
+  min-height: 60px;
+  min-width: 220px;
+  background-color: #018b9a;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+}
+
+.hero-image {
+  min-height: 750px;
+}
+
+.hero-texts {
+  left: 10%;
+  top: 40%;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }

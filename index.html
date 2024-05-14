@@ -8,48 +8,75 @@
     <style></style>
   </head>
   <body>
-    <header class="h-padding flex border align-center justify-between">
-      <!-- left -->
-      <div class="flex align-center">
-        <!-- logo -->
-        <div>
-          <a href="https://imgbb.com/"
-            ><img
-              class="xl-img"
-              src="https://i.ibb.co/v3b54Bv/Logo.png"
-              alt="Logo"
-          /></a>
+    <header class="w-100 px-5 absolute">
+      <div
+        class="header-style cream-bg h-padding flex align-center justify-between"
+      >
+        <!-- left -->
+        <div class="flex align-center">
+          <!-- logo -->
+          <div>
+            <a href="https://imgbb.com/"
+              ><img
+                class="logo"
+                src="https://i.ibb.co/v3b54Bv/Logo.png"
+                alt="Logo"
+            /></a>
+          </div>
+          <!-- divider -->
+          <div class="v-divider green px-3"></div>
+          <!-- nav -->
+          <div class="w-100 flex gap-20">
+            <a href="">Home</a>
+            <a href="">About Us</a>
+            <select name="" id="">
+              <option value="">Services</option>
+            </select>
+            <a href="">Contact Us</a>
+          </div>
         </div>
-        <!-- divider -->
-        <div class="v-divider green"></div>
-        <!-- nav -->
-        <div>
-          <a href="">Home</a>
-          <a href="">About Us</a>
+        <!-- right -->
+        <div class="flex align-center">
+          <!-- divider -->
+          <div class="v-divider green"></div>
           <select name="" id="">
-            <option value="">Services</option>
+            <option value="">EN</option>
+            <option value="">LT</option>
           </select>
-          <a href="">Contact Us</a>
         </div>
-      </div>
-      <!-- right -->
-      <div class="flex align-center">
-        <!-- divider -->
-        <div class="v-divider green"></div>
-        <select name="" id="">
-          <option value="">EN</option>
-          <option value="">LT</option>
-        </select>
       </div>
     </header>
-    <main></main>
-    <footer>
-      <!-- main info -->
-      <div>
-        <!-- links -->
-        <div>
-          <h3>LINKS</h3>
+    <main>
+      <!-- hero -->
+      <section class="white">
+        <img
+          class="hero-image w-100"
+          src="https://i.ibb.co/48z9Y9G/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg-1-1.jpg"
+          alt="stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg-1-1"
+        />
+        <!-- texts -->
+        <div class="absolute hero-texts white-c flex flex-column gap-30">
+          <div class="flex flex-column gap-20">
+            <h1 class="uppercase text-xl w-75">
+              A cleaning company in Klaipėda for all types of cleaning
+            </h1>
+            <h3>White house for those who strive for purity and perfection</h3>
+          </div>
+          <!-- button -->
           <div>
+            <button class="button">CLICK HERE TO BOOK</button>
+            <p class="mt-10">from EUR 18/h after taxes</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="w-100 px-15 footer-style flex flex-column justify-center">
+      <!-- main info -->
+      <div class="flex justify-between align-top">
+        <!-- links -->
+        <div class="flex flex-column justify-center text-center gap-20">
+          <h3>LINKS</h3>
+          <div class="flex flex-column gap-10">
             <a href="/index.html">Home</a>
             <a href="/about.html">About</a>
             <a href="/services.html">Services</a>
@@ -57,11 +84,11 @@
           </div>
         </div>
         <!-- join us -->
-        <div>
+        <div class="flex flex-column text-center gap-20">
           <h3>JOIN US</h3>
           <p>Let your happiness be known to others</p>
           <!-- social media links -->
-          <div>
+          <div class="flex justify-center gap-10">
             <a href="https://facebook.com/"
               ><img
                 class="xs-img"
@@ -90,9 +117,9 @@
           <p>Thank you!</p>
         </div>
         <!-- contact us -->
-        <div>
+        <div class="flex flex-column text-center justify-center gap-20">
           <h3>CONTACT US</h3>
-          <div>
+          <div class="flex flex-column gap-10">
             <p>Tiltų 5-2</p>
             <p>Klaipėda, LT-2770</p>
             <p>+37066046644</p>
@@ -101,9 +128,9 @@
         </div>
       </div>
       <!-- light gray divider -->
-      <div></div>
+      <div class="h-divider w-100"></div>
       <!-- privacy policy -->
-      <div>
+      <div class="flex gap-20">
         <p class="light-gray">Privacy policy</p>
         <!-- divider -->
         <div class="v-divider dark-gray"></div>
@@ -111,11 +138,11 @@
       </div>
     </footer>
 
-    <div class="flex flex-wrap">
+    <!-- <div class="flex flex-wrap">
       <div class="box"></div>
       <div class="box"></div>
       <div class="box"></div>
       <div class="box"></div>
-    </div>
+    </div> -->
   </body>
 </html>
